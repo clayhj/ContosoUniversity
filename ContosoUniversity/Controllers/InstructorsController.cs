@@ -208,7 +208,7 @@ namespace ContosoUniversity.Controllers
                     if (!instructorCourses.Contains(course.CourseID))
                     {
                         instructorToUpdate.CourseAssignments.Add(new CourseAssignment { InstructorID = instructorToUpdate.ID, CourseID = course.CourseID });
-                    }
+                    }   
                 }
                 else
                 {
